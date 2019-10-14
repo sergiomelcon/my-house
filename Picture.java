@@ -104,6 +104,11 @@ public class Picture
         {
             
             sun.slowMoveVertical(50);
+            person = new Person();
+            person.moveHorizontal(-200);
+            person.moveVertical(30);
+            person.makeVisible();
+            person.slowMoveHorizontal(140);
         }
     }
 }
